@@ -1125,4 +1125,9 @@ body {
 .plans-page .plan ul li .help{
   margin-left: auto;
 }
+@media (max-width:767px) {
+  .plans-page  {
+    grid-template-columns: minmax(200px, 1fr);
+  }
+}
 /* End Plans */
